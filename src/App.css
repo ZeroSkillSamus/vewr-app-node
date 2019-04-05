@@ -13,7 +13,11 @@
 	position: relative;
 	padding-top: 10px; /* Player ratio: 100 / (1280 / 720) */
 }
-
+.videosOnSide {
+	float: left;
+	width: 870px;
+	height: 1300px;
+}
 .testMore {
 	padding-bottom: 20px;
 	padding-left: 13px;
@@ -32,6 +36,9 @@
 }
 
 .videoPlayer {
+	float: left;
+	width: 920px;
+	height: 89%;
 	padding-left: 3em;
 	padding-top: 4em;
 }
