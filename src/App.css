@@ -9,14 +9,21 @@
 	pointer-events: none;
 }
 */
+
 .video {
 	position: relative;
 	padding-top: 10px; /* Player ratio: 100 / (1280 / 720) */
 }
-.videosOnSide {
-	float: left;
+.testIG {
 	width: 870px;
 	height: 1300px;
+	float: left;
+}
+.videosOnSide {
+	padding-top: 19%;
+	height: 100%;
+	width: 100%;
+	padding-left: 3em;
 }
 .testMore {
 	padding-bottom: 20px;
@@ -41,6 +48,9 @@
 	height: 89%;
 	padding-left: 3em;
 	padding-top: 4em;
+}
+.textForThumbnails {
+	text-align: center;
 }
 /*
 .App-header {

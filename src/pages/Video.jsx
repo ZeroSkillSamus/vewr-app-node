@@ -33,8 +33,10 @@ class Video extends Component {
 						<CommentBox data={data} />
 					</div>
 				</div>
-				<div className='videosOnSide'>
-					<OtherVid />
+				<div className='testIG'>
+					<div className='videosOnSide'>
+						<OtherVid />
+					</div>
 				</div>
 			</div>
 		);
