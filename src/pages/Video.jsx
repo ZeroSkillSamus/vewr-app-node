@@ -6,11 +6,11 @@ import { withRouter } from 'react-router';
 import OtherVid from '../components/otherVids';
 
 var data = [
-	{ img: 'peteHunt', author: 'Pete Hunt', text: 'Yerrrr' },
-	{ img: 'jordanWalke', author: 'Jordan Walke', text: 'Looking Good' },
-	{ img: 'peteHunt', author: 'Pete Hunt', text: 'Hi my name is Abraham Mitchell I am testing the comment box for some reason' },
-	{ img: 'peteHunt', author: 'Pete Hunt', text: 'Damn it is not looking so bad I am falling in love already' },
-	{ img: 'jaredChua', author: 'JChua447', text: 'I am fucking useless yeaaaaaa weeeeeeeeeeeeeeeeeeeeeeeeee' }
+	{ img: 'peteHunt', author: 'Noah21', text: 'First one to comment' },
+	{ img: 'jordanWalke', author: 'KyleBarry', text: 'Not bad at all good work!' },
+	{ img: 'peteHunt', author: 'Beezy', text: 'This video is funny lol' },
+	{ img: 'peteHunt', author: 'Amitch20', text: 'Beautiful music and beautiful' },
+	{ img: 'jaredChua', author: 'JChua447', text: 'I made it too the platform guys.' }
 ];
 
 class Video extends Component {
